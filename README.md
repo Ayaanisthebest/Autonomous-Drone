@@ -8,7 +8,9 @@ This drone uses your existing ZMR250 frame with 2207 motors, 30A ESCs, and F7 fl
 
 ## 📋 Components List
 
-### What You Already Have ✅
+
+### What You Need 
+
 - ZMR250 carbon fiber frame
 - 2207 brushless motors (4x)
 - 30A ESCs (4x)
@@ -16,7 +18,7 @@ This drone uses your existing ZMR250 frame with 2207 motors, 30A ESCs, and F7 fl
 - FlySky receiver
 - 5" propellers
 
-### What You Need to Add 🔧
+
 - **Power System:**
   - 4S 1500-2200mAh LiPo battery (70C+ discharge)
   - 5V 5A UBEC for Raspberry Pi power

@@ -1,0 +1,50 @@
+# Requirements for Person-Following Drone System
+# Python 3.8+ required
+
+# Core dependencies
+numpy==1.24.3
+opencv-python==4.8.1.78
+opencv-contrib-python==4.8.1.78
+pillow==10.0.0
+matplotlib==3.7.2
+scipy==1.11.1
+
+# Machine learning and computer vision
+torch==2.0.1
+torchvision==0.15.2
+torchaudio==2.0.2
+ultralytics==8.0.196
+onnx==1.14.1
+onnxruntime==1.15.1
+
+# Drone control and communication
+mavsdk==0.4.0
+pymavlink==2.4.37
+pyserial==3.5
+pynmea2==1.19.0
+
+# Camera and image processing
+picamera2==0.3.12
+picamera==1.13
+
+# System utilities
+psutil==5.9.5
+pyyaml==6.0.1
+click==8.1.7
+rich==13.5.2
+
+# Networking and communication
+requests==2.31.0
+websockets==11.0.3
+asyncio-mqtt==0.13.0
+paho-mqtt==1.6.1
+
+# Development and testing
+pytest==7.4.2
+pytest-asyncio==0.21.1
+black==23.9.1
+flake8==6.1.0
+
+# Optional: GPU acceleration (if available)
+# torch==2.0.1+cu118 -f https://download.pytorch.org/whl/torch_stable.html
+# torchvision==0.15.2+cu118 -f https://download.pytorch.org/whl/torch_stable.html
